@@ -24,6 +24,8 @@ def bool_ex():  # bool 자료형
     print("Map:", bool({"a": 2}), bool({}))
     print("None:", bool(None)) # None : Java의 Null 과 비슷 -> 아무 것도 할당되지 않은 상태
 
+    # Circuit Break
+
 
 if __name__ == "__main__":
     bool_ex();
