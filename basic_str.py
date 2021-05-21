@@ -236,7 +236,6 @@ def string_format():
 
 
 
-
 if __name__ == "__main__":
     # define_str()
     # string_oper()
