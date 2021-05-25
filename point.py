@@ -64,7 +64,6 @@ class Point:
 
         return self - other
 
-
     # == 오버로딩
     def __eq__(self, other):
         return self.x == other.x and self.y == other.y
