@@ -63,4 +63,4 @@ if __name__ == "__main__":
     # read01()
     # read02()
     # read03()
-    copy_binary()
+    copy_binary()\
