@@ -3,9 +3,9 @@ print(cabinet[3])
 print(cabinet[100])
 
 print(cabinet.get(3))
-#print(cabinet[5]) # 오류를 발생시키고 프로그램 바로 종료
-print(cabinet.get(5)) # None으로 출력하고 뒤에 hi 까지 값을 출력
-print(cabinet.get(5, "사용가능")) # 값이 없을때 None이 아닌 default 값으로 사용가능 출력
+# print(cabinet[5]) # 오류를 발생시키고 프로그램 바로 종료
+print(cabinet.get(5)) # None 으로 출력하고 뒤에 hi 까지 값을 출력
+print(cabinet.get(5, "사용가능")) # 값이 없을때 None 이 아닌 default 값으로 사용가능 출력
 print("hi")
 
 print(3 in cabinet) # True
